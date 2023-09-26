@@ -1,0 +1,125 @@
+  @media screen and (max-width:450px){
+    body{
+        background: fixed;
+    }
+    .header{
+        position:sticky;
+        background-color:white;
+    }
+    .navbar{
+        display:block;
+        height: auto;
+        padding-bottom:5px;
+       
+    }
+    .navbar-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        width:100%;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   .banner .banner-left,.banner .banner-left .banner-title{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .banner .banner-left .search-destination{
+        display: flex;
+        width:350px;
+        padding:5px; 
+    }
+    .banner .banner-left .search-destination input{
+        padding:5px;
+    }
+    .banner .banner-left .search-destination button{
+        font-weight:800;
+        padding:2px;
+        font-size:9px;
+        width: auto;
+    }
+    .open-button{
+        display: none;
+    }
+    .services{
+        width: 100%;
+    }
+    .services .service-boxes,.destinations .destination-boxes{
+        width: 100%;
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap:1.2rem;
+    }
+    .services .service-boxes .service-box{
+        margin:3px 0px 3px 0px;
+        width:420;
+    }
+    .destinations{
+        display: flex;
+        flex-direction: column;
+        gap:0.3rem;
+    }
+    .destination-category{
+        margin-top:0px;
+        margin-bottom:10px;
+    }
+    
+    .destinations .destination-boxes .destination-box{
+
+        width:95%;
+        display:flex;
+        flex-direction: column;
+        margin:15px 6px 15px 6px;
+    }
+    .destinations .destination-boxes .destination-box .destination-img{
+         height:150px;
+         display: block;
+    }
+    .destinations .destination-boxes .destination-box .destination-description{
+        height: auto;
+    }
+    .testimonials .testimonials-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .testimonials-box .general-testimonials{
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        width:100%;
+        padding: 4px;
+    }
+    .testimonials-box .general-testimonials .testimonial-box{
+        width:95%;
+        height: auto;
+        padding:4px;
+        margin:auto;
+    }
+    .testimonials-box .testimonial-of-the-day-box{
+        width:95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:20px;
+    } 
+    .testimonials-box .testimonial-of-the-day-box .testimonial-of-the-day{
+        width:95%;
+        margin: auto;
+       
+    
+    } 
+    
+
+
+    
+}
